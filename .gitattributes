@@ -1,0 +1,4 @@
+# Концы строк — LF во всех текстовых файлах: deploy.sh и юниты systemd едут на Linux, CRLF ломает bash.
+* text=auto eol=lf
+*.png binary
+*.db binary
