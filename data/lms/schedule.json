@@ -1,0 +1,164 @@
+[
+  {
+    "id": "webinar-01",
+    "type": "webinar",
+    "title": "Вебинар 1. Знакомство с курсом, переменные и типы данных, условия и циклы (L1.1-L1.2)",
+    "module": 1,
+    "starts_at": "2026-11-04T19:00:00+03:00",
+    "duration_min": 90,
+    "link": "https://lms.academy-data.example/events/webinar-01"
+  },
+  {
+    "id": "review-01",
+    "type": "review",
+    "title": "Разбор ДЗ: вопросы по hw1 «Анализ списка покупок»",
+    "module": 1,
+    "starts_at": "2026-11-06T18:00:00+03:00",
+    "duration_min": 60,
+    "link": "https://lms.academy-data.example/events/review-01"
+  },
+  {
+    "id": "webinar-02",
+    "type": "webinar",
+    "title": "Вебинар 2. Функции и модули, подготовка к hw1 (L1.3)",
+    "module": 1,
+    "starts_at": "2026-11-11T19:00:00+03:00",
+    "duration_min": 90,
+    "link": "https://lms.academy-data.example/events/webinar-02"
+  },
+  {
+    "id": "review-02",
+    "type": "review",
+    "title": "Разбор ДЗ: hw1 «Анализ списка покупок» — типичные ошибки перед дедлайном",
+    "module": 1,
+    "starts_at": "2026-11-13T18:00:00+03:00",
+    "duration_min": 60,
+    "link": "https://lms.academy-data.example/events/review-02"
+  },
+  {
+    "id": "webinar-03",
+    "type": "webinar",
+    "title": "Вебинар 3. Pandas: Series и DataFrame, чтение CSV, фильтрация и пропуски (L2.1-L2.2)",
+    "module": 2,
+    "starts_at": "2026-11-18T19:00:00+03:00",
+    "duration_min": 90,
+    "link": "https://lms.academy-data.example/events/webinar-03"
+  },
+  {
+    "id": "review-03",
+    "type": "review",
+    "title": "Разбор ДЗ: итоги hw1 и вопросы по hw2 «Продажи кофейни»",
+    "module": 2,
+    "starts_at": "2026-11-20T18:00:00+03:00",
+    "duration_min": 60,
+    "link": "https://lms.academy-data.example/events/review-03"
+  },
+  {
+    "id": "webinar-04",
+    "type": "webinar",
+    "title": "Вебинар 4. Группировка и агрегация, подготовка к hw2 (L2.3)",
+    "module": 2,
+    "starts_at": "2026-11-25T19:00:00+03:00",
+    "duration_min": 90,
+    "link": "https://lms.academy-data.example/events/webinar-04"
+  },
+  {
+    "id": "review-04",
+    "type": "review",
+    "title": "Разбор ДЗ: hw2 «Продажи кофейни» — типичные ошибки перед дедлайном",
+    "module": 2,
+    "starts_at": "2026-11-27T18:00:00+03:00",
+    "duration_min": 60,
+    "link": "https://lms.academy-data.example/events/review-04"
+  },
+  {
+    "id": "webinar-05",
+    "type": "webinar",
+    "title": "Вебинар 5. Matplotlib и Seaborn: графики и выбор типа графика (L3.1-L3.2)",
+    "module": 3,
+    "starts_at": "2026-12-02T19:00:00+03:00",
+    "duration_min": 90,
+    "link": "https://lms.academy-data.example/events/webinar-05"
+  },
+  {
+    "id": "review-05",
+    "type": "review",
+    "title": "Разбор ДЗ: итоги hw2 и вопросы по hw3 «Дашборд по продажам»",
+    "module": 3,
+    "starts_at": "2026-12-04T18:00:00+03:00",
+    "duration_min": 60,
+    "link": "https://lms.academy-data.example/events/review-05"
+  },
+  {
+    "id": "webinar-06",
+    "type": "webinar",
+    "title": "Вебинар 6. Как рассказать историю данными, подготовка к hw3 (L3.3)",
+    "module": 3,
+    "starts_at": "2026-12-09T19:00:00+03:00",
+    "duration_min": 90,
+    "link": "https://lms.academy-data.example/events/webinar-06"
+  },
+  {
+    "id": "review-06",
+    "type": "review",
+    "title": "Разбор ДЗ: hw3 «Дашборд по продажам» — типичные ошибки перед дедлайном",
+    "module": 3,
+    "starts_at": "2026-12-11T18:00:00+03:00",
+    "duration_min": 60,
+    "link": "https://lms.academy-data.example/events/review-06"
+  },
+  {
+    "id": "webinar-07",
+    "type": "webinar",
+    "title": "Вебинар 7. Итоговый проект: выбор датасета, вопрос и структура отчёта (L4.1-L4.2)",
+    "module": 4,
+    "starts_at": "2026-12-16T19:00:00+03:00",
+    "duration_min": 90,
+    "link": "https://lms.academy-data.example/events/webinar-07"
+  },
+  {
+    "id": "review-07",
+    "type": "review",
+    "title": "Разбор ДЗ: итоги hw3 и вопросы по итоговому проекту",
+    "module": 4,
+    "starts_at": "2026-12-18T18:00:00+03:00",
+    "duration_min": 60,
+    "link": "https://lms.academy-data.example/events/review-07"
+  },
+  {
+    "id": "webinar-08",
+    "type": "webinar",
+    "title": "Вебинар 8. Подготовка к защите итогового проекта (L4.3)",
+    "module": 4,
+    "starts_at": "2026-12-23T19:00:00+03:00",
+    "duration_min": 90,
+    "link": "https://lms.academy-data.example/events/webinar-08"
+  },
+  {
+    "id": "review-08",
+    "type": "review",
+    "title": "Разбор: итоговый проект — вопросы перед защитой",
+    "module": 4,
+    "starts_at": "2026-12-25T18:00:00+03:00",
+    "duration_min": 60,
+    "link": "https://lms.academy-data.example/events/review-08"
+  },
+  {
+    "id": "defense-01",
+    "type": "defense",
+    "title": "Защита итоговых проектов, день 1 (по записи на слот)",
+    "module": 4,
+    "starts_at": "2026-12-26T12:00:00+03:00",
+    "duration_min": 360,
+    "link": "https://lms.academy-data.example/events/defense-01"
+  },
+  {
+    "id": "defense-02",
+    "type": "defense",
+    "title": "Защита итоговых проектов, день 2 (по записи на слот)",
+    "module": 4,
+    "starts_at": "2026-12-27T12:00:00+03:00",
+    "duration_min": 360,
+    "link": "https://lms.academy-data.example/events/defense-02"
+  }
+]

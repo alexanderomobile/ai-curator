@@ -1,0 +1,22 @@
+[
+  {
+    "id": "hw1",
+    "module": 1,
+    "title": "Анализ списка покупок",
+    "opens_at": "2026-11-02T00:00:00+03:00",
+    "deadline": "2026-11-15T23:59:00+03:00",
+    "max_score": 10,
+    "submit_format": "Ссылка на Google Colab или файл .ipynb в LMS",
+    "guide_id": "guide-1"
+  },
+  {
+    "id": "hw2",
+    "module": 2,
+    "title": "Продажи кофейни",
+    "opens_at": "2026-11-16T00:00:00+03:00",
+    "deadline": "2026-11-29T23:59:00+03:00",
+    "max_score": 10,
+    "submit_format": "Ссылка на Google Colab или файл .ipynb в LMS",
+    "guide_id": "guide-2"
+  }
+]

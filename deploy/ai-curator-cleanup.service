@@ -1,0 +1,17 @@
+[Unit]
+Description=AI curator: delete journal records older than the retention period (90 days)
+
+[Service]
+Type=oneshot
+User=curator
+Group=curator
+WorkingDirectory=/opt/ai-curator
+EnvironmentFile=/etc/ai-curator.paths.env
+EnvironmentFile=/etc/ai-curator.env
+ExecStart=/opt/ai-curator/.venv/bin/python -m curator.journal cleanup
+UMask=0027
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/ai-curator

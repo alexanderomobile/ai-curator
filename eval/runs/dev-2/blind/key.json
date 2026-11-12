@@ -1,0 +1,579 @@
+{
+  "created_at": "2026-11-12T13:10:56+03:00",
+  "names": [
+    "X",
+    "Y"
+  ],
+  "systems": [
+    "curator",
+    "baseline"
+  ],
+  "sources_stripped": true,
+  "skipped": {},
+  "judges": {
+    "j1": {
+      "seed": 1630445432,
+      "reshuffles": 0,
+      "order": [
+        "d22",
+        "d20",
+        "d12",
+        "d14",
+        "d23",
+        "d05",
+        "d30",
+        "d11",
+        "d31",
+        "d10",
+        "d29",
+        "d34",
+        "d08",
+        "d21",
+        "d36",
+        "d19",
+        "d15",
+        "d06",
+        "d01",
+        "d02",
+        "d24",
+        "d33",
+        "d26",
+        "d04",
+        "d07",
+        "d16",
+        "d03",
+        "d13",
+        "d18",
+        "d27",
+        "d35",
+        "d09",
+        "d17",
+        "d32",
+        "d28",
+        "d25"
+      ],
+      "map": {
+        "d01": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d02": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d03": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d04": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d05": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d06": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d07": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d08": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d09": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d10": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d11": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d12": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d13": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d14": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d15": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d16": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d17": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d18": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d19": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d20": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d21": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d22": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d23": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d24": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d25": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d26": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d27": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d28": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d29": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d30": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d31": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d32": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d33": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d34": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d35": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d36": {
+          "X": "baseline",
+          "Y": "curator"
+        }
+      }
+    },
+    "j2": {
+      "seed": 2343971361,
+      "reshuffles": 0,
+      "order": [
+        "d01",
+        "d28",
+        "d25",
+        "d35",
+        "d09",
+        "d26",
+        "d17",
+        "d15",
+        "d04",
+        "d27",
+        "d30",
+        "d11",
+        "d20",
+        "d08",
+        "d02",
+        "d31",
+        "d23",
+        "d07",
+        "d03",
+        "d10",
+        "d32",
+        "d36",
+        "d24",
+        "d18",
+        "d14",
+        "d06",
+        "d05",
+        "d19",
+        "d33",
+        "d34",
+        "d12",
+        "d16",
+        "d13",
+        "d29",
+        "d21",
+        "d22"
+      ],
+      "map": {
+        "d01": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d02": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d03": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d04": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d05": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d06": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d07": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d08": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d09": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d10": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d11": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d12": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d13": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d14": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d15": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d16": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d17": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d18": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d19": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d20": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d21": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d22": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d23": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d24": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d25": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d26": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d27": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d28": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d29": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d30": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d31": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d32": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d33": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d34": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d35": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d36": {
+          "X": "curator",
+          "Y": "baseline"
+        }
+      }
+    },
+    "j3": {
+      "seed": 469362051,
+      "reshuffles": 0,
+      "order": [
+        "d03",
+        "d35",
+        "d28",
+        "d07",
+        "d31",
+        "d10",
+        "d32",
+        "d12",
+        "d30",
+        "d34",
+        "d05",
+        "d13",
+        "d22",
+        "d29",
+        "d06",
+        "d20",
+        "d15",
+        "d21",
+        "d26",
+        "d23",
+        "d27",
+        "d09",
+        "d19",
+        "d11",
+        "d04",
+        "d16",
+        "d08",
+        "d24",
+        "d02",
+        "d14",
+        "d36",
+        "d25",
+        "d01",
+        "d18",
+        "d17",
+        "d33"
+      ],
+      "map": {
+        "d01": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d02": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d03": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d04": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d05": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d06": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d07": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d08": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d09": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d10": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d11": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d12": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d13": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d14": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d15": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d16": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d17": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d18": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d19": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d20": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d21": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d22": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d23": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d24": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d25": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d26": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d27": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d28": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d29": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d30": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d31": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d32": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d33": {
+          "X": "curator",
+          "Y": "baseline"
+        },
+        "d34": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d35": {
+          "X": "baseline",
+          "Y": "curator"
+        },
+        "d36": {
+          "X": "curator",
+          "Y": "baseline"
+        }
+      }
+    }
+  }
+}

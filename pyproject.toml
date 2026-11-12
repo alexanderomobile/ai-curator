@@ -1,0 +1,26 @@
+[project]
+name = "ai-curator"
+version = "0.1.0"
+description = "ИИ-куратор онлайн-курса: RAG по лекциям, методичкам и FAQ, данные LMS, аналитика вопросов"
+requires-python = ">=3.12"
+
+[tool.basedpyright]
+pythonVersion = "3.12"
+venvPath = "."
+venv = ".venv"
+include = ["curator", "app", "eval", "tests"]
+exclude = ["**/__pycache__", ".venv", "data"]
+typeCheckingMode = "standard"
+reportMissingTypeStubs = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+filterwarnings = [
+    # Устаревший вызов в нашем коде — ошибка теста (например, параметр Streamlit, который скоро уберут).
+    "error::DeprecationWarning",
+    # chromadb и opentelemetry внутри себя зовут устаревшие API; это не наш код (последнее правило сильнее).
+    "ignore::DeprecationWarning:chromadb.*",
+    "ignore::DeprecationWarning:opentelemetry.*",
+]

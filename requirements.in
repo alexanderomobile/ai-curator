@@ -1,0 +1,18 @@
+# Зависимости приложения. Закреплённые версии — requirements.txt:
+#   uv pip compile --universal --python-version 3.12 requirements.in -o requirements.txt
+langchain-core
+langchain-openai
+langchain-chroma
+langchain-text-splitters
+chromadb
+streamlit
+plotly
+pandas
+fastapi
+uvicorn[standard]
+pydantic
+pyyaml
+python-dotenv
+httpx
+# zoneinfo на Windows берёт базу часовых поясов (Europe/Moscow) из этого пакета.
+tzdata

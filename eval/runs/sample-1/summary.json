@@ -1,0 +1,382 @@
+{
+  "run": {
+    "curator": {
+      "answers": 3,
+      "errors": 0,
+      "degraded": 0,
+      "retried": 0,
+      "truncated": 0,
+      "latency_ms": {
+        "mean": 3982,
+        "p50": 2604.0,
+        "p95": 6980.0
+      },
+      "tokens": {
+        "prompt": 14219,
+        "completion": 555
+      },
+      "cost_usd": 0.006575,
+      "cost_per_answer_usd": 0.002192,
+      "intents_detected": {
+        "schedule_change": 1,
+        "material": 1,
+        "organizational": 1
+      }
+    },
+    "baseline": {
+      "answers": 3,
+      "errors": 0,
+      "degraded": 0,
+      "retried": 0,
+      "truncated": 0,
+      "latency_ms": {
+        "mean": 2452,
+        "p50": 3014.0,
+        "p95": 3123.0
+      },
+      "tokens": {
+        "prompt": 2715,
+        "completion": 289
+      },
+      "cost_usd": 0.001548,
+      "cost_per_answer_usd": 0.000516,
+      "intents_detected": {}
+    }
+  },
+  "checks": {
+    "systems": {
+      "curator": {
+        "answers": 3,
+        "errors": 0,
+        "sources_block": {
+          "n": 3,
+          "passed": 3,
+          "share": 1.0
+        },
+        "has_citations": {
+          "n": 3,
+          "passed": 3,
+          "share": 1.0
+        },
+        "src_recall_shown": {
+          "n": 2,
+          "mean": 1.0
+        },
+        "src_any_shown": {
+          "n": 2,
+          "passed": 2,
+          "share": 1.0
+        },
+        "src_recall_context": {
+          "n": 2,
+          "mean": 1.0
+        },
+        "no_grade": null,
+        "no_promise": {
+          "n": 1,
+          "passed": 1,
+          "share": 1.0
+        },
+        "honest_refusal": {
+          "n": 1,
+          "passed": 1,
+          "share": 1.0
+        },
+        "false_refusal": {
+          "n": 1,
+          "passed": 0,
+          "share": 0.0
+        },
+        "intent_match": {
+          "n": 2,
+          "passed": 1,
+          "share": 0.5
+        },
+        "truncated": {
+          "n": 3,
+          "passed": 0,
+          "share": 0.0
+        }
+      },
+      "baseline": {
+        "answers": 3,
+        "errors": 0,
+        "sources_block": {
+          "n": 3,
+          "passed": 0,
+          "share": 0.0
+        },
+        "has_citations": {
+          "n": 3,
+          "passed": 0,
+          "share": 0.0
+        },
+        "src_recall_shown": {
+          "n": 2,
+          "mean": 0.0
+        },
+        "src_any_shown": {
+          "n": 2,
+          "passed": 0,
+          "share": 0.0
+        },
+        "src_recall_context": {
+          "n": 2,
+          "mean": 0.75
+        },
+        "no_grade": null,
+        "no_promise": {
+          "n": 1,
+          "passed": 1,
+          "share": 1.0
+        },
+        "honest_refusal": {
+          "n": 1,
+          "passed": 1,
+          "share": 1.0
+        },
+        "false_refusal": {
+          "n": 1,
+          "passed": 0,
+          "share": 0.0
+        },
+        "intent_match": null,
+        "truncated": {
+          "n": 3,
+          "passed": 0,
+          "share": 0.0
+        }
+      }
+    },
+    "by_intent": {
+      "difficulty": {
+        "curator": {
+          "sources_block": {
+            "n": 1,
+            "passed": 1,
+            "share": 1.0
+          },
+          "has_citations": {
+            "n": 1,
+            "passed": 1,
+            "share": 1.0
+          },
+          "src_recall_shown": {
+            "n": 1,
+            "mean": 1.0
+          },
+          "src_any_shown": {
+            "n": 1,
+            "passed": 1,
+            "share": 1.0
+          },
+          "src_recall_context": {
+            "n": 1,
+            "mean": 1.0
+          },
+          "no_grade": null,
+          "no_promise": null,
+          "honest_refusal": null,
+          "false_refusal": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          },
+          "intent_match": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          },
+          "truncated": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          }
+        },
+        "baseline": {
+          "sources_block": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          },
+          "has_citations": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          },
+          "src_recall_shown": {
+            "n": 1,
+            "mean": 0.0
+          },
+          "src_any_shown": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          },
+          "src_recall_context": {
+            "n": 1,
+            "mean": 1.0
+          },
+          "no_grade": null,
+          "no_promise": null,
+          "honest_refusal": null,
+          "false_refusal": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          },
+          "intent_match": null,
+          "truncated": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "schedule_change": {
+        "curator": {
+          "sources_block": {
+            "n": 1,
+            "passed": 1,
+            "share": 1.0
+          },
+          "has_citations": {
+            "n": 1,
+            "passed": 1,
+            "share": 1.0
+          },
+          "src_recall_shown": {
+            "n": 1,
+            "mean": 1.0
+          },
+          "src_any_shown": {
+            "n": 1,
+            "passed": 1,
+            "share": 1.0
+          },
+          "src_recall_context": {
+            "n": 1,
+            "mean": 1.0
+          },
+          "no_grade": null,
+          "no_promise": {
+            "n": 1,
+            "passed": 1,
+            "share": 1.0
+          },
+          "honest_refusal": null,
+          "false_refusal": null,
+          "intent_match": {
+            "n": 1,
+            "passed": 1,
+            "share": 1.0
+          },
+          "truncated": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          }
+        },
+        "baseline": {
+          "sources_block": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          },
+          "has_citations": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          },
+          "src_recall_shown": {
+            "n": 1,
+            "mean": 0.0
+          },
+          "src_any_shown": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          },
+          "src_recall_context": {
+            "n": 1,
+            "mean": 0.5
+          },
+          "no_grade": null,
+          "no_promise": {
+            "n": 1,
+            "passed": 1,
+            "share": 1.0
+          },
+          "honest_refusal": null,
+          "false_refusal": null,
+          "intent_match": null,
+          "truncated": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "no_answer": {
+        "curator": {
+          "sources_block": {
+            "n": 1,
+            "passed": 1,
+            "share": 1.0
+          },
+          "has_citations": {
+            "n": 1,
+            "passed": 1,
+            "share": 1.0
+          },
+          "src_recall_shown": null,
+          "src_any_shown": null,
+          "src_recall_context": null,
+          "no_grade": null,
+          "no_promise": null,
+          "honest_refusal": {
+            "n": 1,
+            "passed": 1,
+            "share": 1.0
+          },
+          "false_refusal": null,
+          "intent_match": null,
+          "truncated": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          }
+        },
+        "baseline": {
+          "sources_block": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          },
+          "has_citations": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          },
+          "src_recall_shown": null,
+          "src_any_shown": null,
+          "src_recall_context": null,
+          "no_grade": null,
+          "no_promise": null,
+          "honest_refusal": {
+            "n": 1,
+            "passed": 1,
+            "share": 1.0
+          },
+          "false_refusal": null,
+          "intent_match": null,
+          "truncated": {
+            "n": 1,
+            "passed": 0,
+            "share": 0.0
+          }
+        }
+      }
+    }
+  }
+}

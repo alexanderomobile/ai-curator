@@ -1,0 +1,24 @@
+[Unit]
+Description=AI curator: LMS stub API (FastAPI on 127.0.0.1:8502)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=curator
+Group=curator
+WorkingDirectory=/opt/ai-curator
+# Общие пути службы (заглушке нужен только каталог данных — он по умолчанию в /opt/ai-curator/data).
+EnvironmentFile=/etc/ai-curator.paths.env
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/ai-curator/.venv/bin/uvicorn curator.lms_stub_api:app --host 127.0.0.1 --port 8502 --workers 1 --no-access-log
+Restart=always
+RestartSec=5
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+MemoryMax=200M
+
+[Install]
+WantedBy=multi-user.target

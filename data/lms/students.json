@@ -1,0 +1,71 @@
+[
+  {
+    "id": "s1",
+    "name": "Анна Смирнова",
+    "level": "beginner",
+    "extension_used": false,
+    "extension": null,
+    "assignments": {
+      "hw1": "not_submitted",
+      "hw2": "not_submitted",
+      "hw3": "not_submitted",
+      "final": "not_submitted"
+    }
+  },
+  {
+    "id": "s2",
+    "name": "Дмитрий Козлов",
+    "level": "advanced",
+    "extension_used": false,
+    "extension": null,
+    "assignments": {
+      "hw1": "accepted",
+      "hw2": "not_submitted",
+      "hw3": "not_submitted",
+      "final": "not_submitted"
+    }
+  },
+  {
+    "id": "s3",
+    "name": "Мария Лебедева",
+    "level": "beginner",
+    "extension_used": false,
+    "extension": null,
+    "assignments": {
+      "hw1": "revision",
+      "hw2": "not_submitted",
+      "hw3": "not_submitted",
+      "final": "not_submitted"
+    }
+  },
+  {
+    "id": "s4",
+    "name": "Илья Орлов",
+    "level": "advanced",
+    "extension_used": false,
+    "extension": null,
+    "assignments": {
+      "hw1": "submitted",
+      "hw2": "not_submitted",
+      "hw3": "not_submitted",
+      "final": "not_submitted"
+    }
+  },
+  {
+    "id": "s5",
+    "name": "Екатерина Волкова",
+    "level": "beginner",
+    "extension_used": true,
+    "extension": {
+      "assignment_id": "hw1",
+      "days": 3,
+      "new_deadline": "2026-11-18T23:59:00+03:00"
+    },
+    "assignments": {
+      "hw1": "not_submitted",
+      "hw2": "not_submitted",
+      "hw3": "not_submitted",
+      "final": "not_submitted"
+    }
+  }
+]

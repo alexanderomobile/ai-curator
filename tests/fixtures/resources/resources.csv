@@ -1,0 +1,6 @@
+id,title,url,module,topic,level,kind,minutes,description
+res-01,Welcome to Colab,https://colab.research.google.com/notebooks/intro.ipynb,0,tools,beginner,tutorial,15,"Вводный ноутбук Colab."
+res-02,pandas: 10 minutes to pandas,https://pandas.pydata.org/docs/user_guide/10min.html,2,pandas-filtering,beginner,docs,30,"Быстрое введение в pandas."
+res-03,pandas: Indexing and selecting data,https://pandas.pydata.org/docs/user_guide/indexing.html,2,pandas-filtering,advanced,docs,40,"loc, iloc, маски, query."
+res-04,Python Tutorial: An Informal Introduction,https://docs.python.org/3/tutorial/introduction.html,1,python-variables,beginner,tutorial,30,"Числа, строки, списки."
+res-05,Kaggle Learn: Pandas,https://www.kaggle.com/learn/pandas,2,pandas-filtering,all,course,240,"Короткий курс с задачами."

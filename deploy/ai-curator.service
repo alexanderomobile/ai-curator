@@ -1,0 +1,33 @@
+[Unit]
+Description=AI curator demo (Streamlit on 0.0.0.0:8501)
+After=network-online.target ai-curator-lms.service
+Wants=network-online.target ai-curator-lms.service
+
+[Service]
+User=curator
+Group=curator
+WorkingDirectory=/opt/ai-curator
+# Пути, LMS_URL и доверенный прокси (CURATOR_TRUSTED_PROXIES) — в общем несекретном файле (его же подключают
+# остальные юниты и ручные команды), секреты — отдельно.
+EnvironmentFile=/etc/ai-curator.paths.env
+EnvironmentFile=/etc/ai-curator.env
+Environment=PYTHONUNBUFFERED=1
+# Один процесс: память диалогов и лимиты демо живут в нём. Слушает 0.0.0.0: cloudflared живёт в другом контейнере
+# (LXC 101) и ходит к службе по LAN-адресу этого контейнера. Заголовкам с адресом посетителя (Cf-Connecting-Ip,
+# X-Forwarded-For) куратор верит только от CURATOR_TRUSTED_PROXIES: клиент из LAN, подключившись напрямую,
+# подделанным заголовком лимит не обойдёт. Заглушка LMS (ai-curator-lms.service) по-прежнему только на 127.0.0.1:8502.
+ExecStart=/opt/ai-curator/.venv/bin/streamlit run app/streamlit_app.py --server.address 0.0.0.0 --server.port 8501 --server.headless true --browser.gatherUsageStats false
+Restart=always
+RestartSec=5
+# Журнал вопросов: только владелец и группа.
+UMask=0027
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/ai-curator
+MemoryMax=800M
+
+[Install]
+WantedBy=multi-user.target

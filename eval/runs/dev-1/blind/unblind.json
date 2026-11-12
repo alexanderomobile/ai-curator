@@ -1,0 +1,313 @@
+{
+  "ratings": 108,
+  "judges": [
+    "j1",
+    "j2",
+    "j3"
+  ],
+  "questions": 36,
+  "ties": 22,
+  "systems": {
+    "curator": {
+      "correctness": 4.51,
+      "completeness": 3.94,
+      "safety": 4.89,
+      "helpfulness": 4.19,
+      "overall": 4.38,
+      "points_share": 0.768,
+      "forbidden_share": 0.028,
+      "wins": 70
+    },
+    "baseline": {
+      "correctness": 4.1,
+      "completeness": 3.38,
+      "safety": 4.29,
+      "helpfulness": 3.71,
+      "overall": 3.87,
+      "points_share": 0.648,
+      "forbidden_share": 0.194,
+      "wins": 16
+    }
+  },
+  "by_intent": {
+    "deadline": {
+      "questions": 7,
+      "ratings": 21,
+      "ties": 3,
+      "curator": {
+        "correctness": 4.29,
+        "completeness": 4.1,
+        "safety": 4.52,
+        "helpfulness": 4.24,
+        "overall": 4.29,
+        "points_share": 0.815,
+        "forbidden_share": 0.143,
+        "wins": 12
+      },
+      "baseline": {
+        "correctness": 3.62,
+        "completeness": 3.33,
+        "safety": 4.52,
+        "helpfulness": 3.48,
+        "overall": 3.74,
+        "points_share": 0.667,
+        "forbidden_share": 0.143,
+        "wins": 6
+      }
+    },
+    "difficulty": {
+      "questions": 5,
+      "ratings": 15,
+      "ties": 5,
+      "curator": {
+        "correctness": 4.27,
+        "completeness": 3.8,
+        "safety": 5.0,
+        "helpfulness": 4.4,
+        "overall": 4.37,
+        "points_share": 0.778,
+        "forbidden_share": 0.0,
+        "wins": 8
+      },
+      "baseline": {
+        "correctness": 4.93,
+        "completeness": 3.27,
+        "safety": 5.0,
+        "helpfulness": 4.27,
+        "overall": 4.37,
+        "points_share": 0.653,
+        "forbidden_share": 0.0,
+        "wins": 2
+      }
+    },
+    "material": {
+      "questions": 7,
+      "ratings": 21,
+      "ties": 5,
+      "curator": {
+        "correctness": 4.43,
+        "completeness": 3.71,
+        "safety": 4.9,
+        "helpfulness": 4.14,
+        "overall": 4.3,
+        "points_share": 0.694,
+        "forbidden_share": 0.0,
+        "wins": 13
+      },
+      "baseline": {
+        "correctness": 4.38,
+        "completeness": 3.62,
+        "safety": 4.52,
+        "helpfulness": 3.95,
+        "overall": 4.12,
+        "points_share": 0.639,
+        "forbidden_share": 0.143,
+        "wins": 3
+      }
+    },
+    "recommendation": {
+      "questions": 4,
+      "ratings": 12,
+      "ties": 0,
+      "curator": {
+        "correctness": 4.25,
+        "completeness": 3.08,
+        "safety": 5.0,
+        "helpfulness": 3.92,
+        "overall": 4.06,
+        "points_share": 0.7,
+        "forbidden_share": 0.0,
+        "wins": 9
+      },
+      "baseline": {
+        "correctness": 4.42,
+        "completeness": 3.25,
+        "safety": 4.58,
+        "helpfulness": 3.83,
+        "overall": 4.02,
+        "points_share": 0.667,
+        "forbidden_share": 0.083,
+        "wins": 3
+      }
+    },
+    "organizational": {
+      "questions": 4,
+      "ratings": 12,
+      "ties": 4,
+      "curator": {
+        "correctness": 4.58,
+        "completeness": 4.0,
+        "safety": 5.0,
+        "helpfulness": 4.08,
+        "overall": 4.42,
+        "points_share": 0.727,
+        "forbidden_share": 0.0,
+        "wins": 6
+      },
+      "baseline": {
+        "correctness": 4.25,
+        "completeness": 4.0,
+        "safety": 4.25,
+        "helpfulness": 4.0,
+        "overall": 4.12,
+        "points_share": 0.727,
+        "forbidden_share": 0.25,
+        "wins": 2
+      }
+    },
+    "grading_request": {
+      "questions": 2,
+      "ratings": 6,
+      "ties": 0,
+      "curator": {
+        "correctness": 5.0,
+        "completeness": 4.33,
+        "safety": 5.0,
+        "helpfulness": 3.67,
+        "overall": 4.5,
+        "points_share": 0.833,
+        "forbidden_share": 0.0,
+        "wins": 6
+      },
+      "baseline": {
+        "correctness": 3.17,
+        "completeness": 2.0,
+        "safety": 3.0,
+        "helpfulness": 2.5,
+        "overall": 2.67,
+        "points_share": 0.333,
+        "forbidden_share": 0.5,
+        "wins": 0
+      }
+    },
+    "schedule_change": {
+      "questions": 2,
+      "ratings": 6,
+      "ties": 2,
+      "curator": {
+        "correctness": 4.83,
+        "completeness": 4.0,
+        "safety": 5.0,
+        "helpfulness": 3.67,
+        "overall": 4.38,
+        "points_share": 0.81,
+        "forbidden_share": 0.0,
+        "wins": 4
+      },
+      "baseline": {
+        "correctness": 4.5,
+        "completeness": 3.67,
+        "safety": 5.0,
+        "helpfulness": 3.83,
+        "overall": 4.25,
+        "points_share": 0.714,
+        "forbidden_share": 0.0,
+        "wins": 0
+      }
+    },
+    "off_topic": {
+      "questions": 2,
+      "ratings": 6,
+      "ties": 0,
+      "curator": {
+        "correctness": 5.0,
+        "completeness": 5.0,
+        "safety": 5.0,
+        "helpfulness": 5.0,
+        "overall": 5.0,
+        "points_share": 1.0,
+        "forbidden_share": 0.0,
+        "wins": 6
+      },
+      "baseline": {
+        "correctness": 2.0,
+        "completeness": 2.17,
+        "safety": 1.0,
+        "helpfulness": 2.0,
+        "overall": 1.79,
+        "points_share": 0.333,
+        "forbidden_share": 1.0,
+        "wins": 0
+      }
+    },
+    "no_answer": {
+      "questions": 3,
+      "ratings": 9,
+      "ties": 3,
+      "curator": {
+        "correctness": 5.0,
+        "completeness": 4.33,
+        "safety": 5.0,
+        "helpfulness": 4.56,
+        "overall": 4.72,
+        "points_share": 0.833,
+        "forbidden_share": 0.0,
+        "wins": 6
+      },
+      "baseline": {
+        "correctness": 4.33,
+        "completeness": 4.0,
+        "safety": 4.22,
+        "helpfulness": 4.11,
+        "overall": 4.17,
+        "points_share": 0.833,
+        "forbidden_share": 0.222,
+        "wins": 0
+      }
+    }
+  },
+  "by_judge": {
+    "j1": {
+      "ratings": 36,
+      "ties": 7,
+      "x_wins": 16,
+      "y_wins": 13,
+      "curator": {
+        "wins": 24,
+        "overall": 4.38
+      },
+      "baseline": {
+        "wins": 5,
+        "overall": 3.86
+      }
+    },
+    "j2": {
+      "ratings": 36,
+      "ties": 7,
+      "x_wins": 16,
+      "y_wins": 13,
+      "curator": {
+        "wins": 24,
+        "overall": 4.4
+      },
+      "baseline": {
+        "wins": 5,
+        "overall": 3.85
+      }
+    },
+    "j3": {
+      "ratings": 36,
+      "ties": 8,
+      "x_wins": 16,
+      "y_wins": 12,
+      "curator": {
+        "wins": 22,
+        "overall": 4.38
+      },
+      "baseline": {
+        "wins": 6,
+        "overall": 3.9
+      }
+    }
+  },
+  "problems": [],
+  "agreement": {
+    "questions_multi": 36,
+    "unanimous": 26,
+    "majority": {
+      "curator": 25,
+      "tie": 5,
+      "baseline": 6
+    }
+  }
+}

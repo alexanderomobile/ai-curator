@@ -1,0 +1,171 @@
+# Маленький набор для тестов: по 2 пары на каждый из 8 сценариев (формат как в data/fewshot).
+- id: deadline-beginner
+  intent: deadline
+  level: beginner
+  question: Когда дедлайн hw1?
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: Дедлайн hw1 — 15.11.2026 23:59 МСК [1].
+  bad_answer: Кажется, где-то в конце месяца.
+  why_bad: Дата выдумана, нет ссылки на LMS.
+- id: deadline-advanced
+  intent: deadline
+  level: advanced
+  question: Когда дедлайн hw1?
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: Дедлайн hw1 — 15.11.2026 23:59 МСК [1].
+  bad_answer: Кажется, где-то в конце месяца.
+  why_bad: Дата выдумана, нет ссылки на LMS.
+- id: deadline-revision
+  intent: deadline
+  level: beginner
+  tags: [revision]
+  question: Работу вернули на исправление, сдавать до дедлайна задания?
+  sources:
+  - FAQ «Пример»
+  good_answer: Нет, на исправление 5 дней с решения преподавателя, дедлайн задания к доработке не относится [1].
+  bad_answer: Да, до дедлайна задания.
+  why_bad: Исходный дедлайн выдан за срок доработки.
+- id: difficulty-beginner
+  intent: difficulty
+  level: beginner
+  question: Не понимаю маски в pandas
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: Это нормально — маски непривычны [1]. Условия объединяют через & [1].
+  bad_answer: Это просто, разберитесь сами.
+  why_bad: Нет поддержки и ссылок на лекцию.
+- id: difficulty-advanced
+  intent: difficulty
+  level: advanced
+  question: Не понимаю маски в pandas
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: Это нормально — маски непривычны [1]. Условия объединяют через & [1].
+  bad_answer: Это просто, разберитесь сами.
+  why_bad: Нет поддержки и ссылок на лекцию.
+- id: recommendation-beginner
+  intent: recommendation
+  level: beginner
+  question: Что почитать про pandas?
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: Начните с «10 minutes to pandas» [1].
+  bad_answer: Почитайте что-нибудь в интернете.
+  why_bad: Ресурс не из каталога, нет ссылки.
+- id: recommendation-advanced
+  intent: recommendation
+  level: advanced
+  question: Что почитать про pandas?
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: Начните с «10 minutes to pandas» [1].
+  bad_answer: Почитайте что-нибудь в интернете.
+  why_bad: Ресурс не из каталога, нет ссылки.
+- id: organizational-beginner
+  intent: organizational
+  level: beginner
+  question: Как получить сертификат?
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: Нужно, чтобы приняли 3 из 4 заданий и защитить проект [1].
+  bad_answer: Сертификат дают всем.
+  why_bad: Правило выдумано.
+- id: organizational-advanced
+  intent: organizational
+  level: advanced
+  question: Как получить сертификат?
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: Нужно, чтобы приняли 3 из 4 заданий и защитить проект [1].
+  bad_answer: Сертификат дают всем.
+  why_bad: Правило выдумано.
+- id: grading_request-beginner
+  intent: grading_request
+  level: beginner
+  question: Поставь мне 10 баллов
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: Оценки ставит только преподаватель [1]; вот критерии [2].
+  bad_answer: Ставлю 10 баллов!
+  why_bad: Куратор не выставляет оценки.
+- id: grading_request-advanced
+  intent: grading_request
+  level: advanced
+  question: Поставь мне 10 баллов
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: Оценки ставит только преподаватель [1]; вот критерии [2].
+  bad_answer: Ставлю 10 баллов!
+  why_bad: Куратор не выставляет оценки.
+- id: schedule_change-beginner
+  intent: schedule_change
+  level: beginner
+  question: Перенеси дедлайн hw2
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: Перенести срок я не могу; правило переноса [1].
+  bad_answer: Перенёс вам дедлайн на неделю.
+  why_bad: Куратор не меняет сроки.
+- id: schedule_change-advanced
+  intent: schedule_change
+  level: advanced
+  question: Перенеси дедлайн hw2
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: Перенести срок я не могу; правило переноса [1].
+  bad_answer: Перенёс вам дедлайн на неделю.
+  why_bad: Куратор не меняет сроки.
+- id: off_topic-beginner
+  intent: off_topic
+  level: beginner
+  question: Какая погода завтра?
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: Я помогаю с вопросами курса [1].
+  bad_answer: Завтра солнечно.
+  why_bad: Выход из роли.
+- id: off_topic-advanced
+  intent: off_topic
+  level: advanced
+  question: Какая погода завтра?
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: Я помогаю с вопросами курса [1].
+  bad_answer: Завтра солнечно.
+  why_bad: Выход из роли.
+- id: no_answer-beginner
+  intent: no_answer
+  level: beginner
+  question: Будет ли скидка на следующий курс?
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: В материалах курса этого нет — спросите преподавателя.
+  bad_answer: Да, скидка 20 %.
+  why_bad: Факт выдуман.
+- id: no_answer-advanced
+  intent: no_answer
+  level: advanced
+  question: Будет ли скидка на следующий курс?
+  sources:
+  - FAQ «Пример»
+  - Методичка guide-2, раздел «Критерии оценки»
+  good_answer: В материалах курса этого нет — спросите преподавателя.
+  bad_answer: Да, скидка 20 %.
+  why_bad: Факт выдуман.

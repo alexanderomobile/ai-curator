@@ -1,0 +1,54 @@
+{
+  "run": "holdout-1",
+  "created_at": "2026-11-12T15:48:04+03:00",
+  "now": "2026-11-12T12:00:00+03:00",
+  "dataset": {
+    "path": "eval/sets/holdout.json",
+    "sha256": "f6b7d6dcd5e05c81757f79b7d478675cc110f18d6038295c3a4d32ffabcbcdf5",
+    "items": 44
+  },
+  "systems": [
+    "curator",
+    "baseline"
+  ],
+  "workers": 4,
+  "retries": 3,
+  "curator": {
+    "chat_model": "gpt-4.1-mini",
+    "router_model": "gpt-4.1-mini",
+    "temperature": 0.2,
+    "max_tokens": 900,
+    "top_k": 5,
+    "min_similarity": 0.3,
+    "min_filtered_hits": 2,
+    "history_turns": 2
+  },
+  "baseline": {
+    "model": "gpt-4.1-mini",
+    "temperature": 0.2,
+    "top_k": 5,
+    "max_tokens": 900,
+    "system_prompt": "Ты помощник курса. Отвечай по контексту."
+  },
+  "embed_model": "text-embedding-3-large",
+  "index": {
+    "collection": "kb-20261112-090720-ba02c7",
+    "kb_version": "7386631d90",
+    "built_at": "2026-11-12T09:07:20+03:00",
+    "state": "ok"
+  },
+  "journal": "journal.db",
+  "sessions": [
+    {
+      "started_at": "2026-11-12T15:48:05+03:00",
+      "tasks": 88,
+      "systems": [
+        "curator",
+        "baseline"
+      ],
+      "finished_at": "2026-11-12T15:49:05+03:00",
+      "errors": 0
+    }
+  ],
+  "finished_at": "2026-11-12T15:49:05+03:00"
+}

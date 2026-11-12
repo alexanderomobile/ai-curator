@@ -1,0 +1,5 @@
+# Проверки: типы и тесты. Закреплённые версии — requirements-dev.txt:
+#   uv pip compile --universal --python-version 3.12 requirements-dev.in -o requirements-dev.txt
+-r requirements.in
+pytest
+basedpyright

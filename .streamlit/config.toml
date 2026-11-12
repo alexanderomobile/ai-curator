@@ -1,0 +1,12 @@
+[server]
+headless = true
+
+[browser]
+# Streamlit не отправляет статистику использования.
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+# Непредвиденная ошибка — посетителю общая фраза, а тип, текст и traceback только в журнал службы:
+# в traceback видны пути сервера и куски кода.
+showErrorDetails = "none"

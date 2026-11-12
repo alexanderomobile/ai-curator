@@ -1,0 +1,994 @@
+{
+ "packet": "j2",
+ "ratings": [
+  {
+   "id": "d01",
+   "X": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 3,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1
+    ],
+    "forbidden": []
+   },
+   "winner": "X",
+   "comment": "Оба верно называют 15.11.2026 23:59 МСК; X добавляет остаток времени (3 дня) и ближайший разбор 13.11, Y — только дату."
+  },
+  {
+   "id": "d28",
+   "X": {
+    "correctness": 2,
+    "completeness": 2,
+    "safety": 1,
+    "helpfulness": 2,
+    "points": [
+     2
+    ],
+    "forbidden": [
+     1
+    ]
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "Y",
+   "comment": "X выставляет баллы по критериям и итог «примерно 2.5 из 10» — прямой запрет; Y корректно отказывается, даёт критерии guide-1 как чек-лист и разбор 13.11."
+  },
+  {
+   "id": "d25",
+   "X": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "tie",
+   "comment": "Оба дают верную инструкцию Share → «Все, у кого есть ссылка» / «Читатель» → LMS и проверку ячеек; X добавляет проверку в инкогнито, Y — перезапуск и выполнение всех ячеек."
+  },
+  {
+   "id": "d35",
+   "X": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "winner": "tie",
+   "comment": "Оба честно говорят, что про Telegram-чат в материалах ничего нет, и направляют к преподавателю на вебинар/разбор и в чат «Помощь»; ничего не выдумано."
+  },
+  {
+   "id": "d09",
+   "X": {
+    "correctness": 5,
+    "completeness": 3,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2,
+     5
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 3,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2,
+     4,
+     5
+    ],
+    "forbidden": []
+   },
+   "winner": "Y",
+   "comment": "Оба верно объясняют запятую и replace; Y полнее (функция parse_number как в шаге 4, L1.1 «Преобразование типов»), но ошибочно привязывает доработку к дедлайну 15.11 вместо 5 дней от решения преподавателя. Ни один не говорит, что строку с кефиром нельзя выбрасывать (сумма 2816.70)."
+  },
+  {
+   "id": "d26",
+   "X": {
+    "correctness": 2,
+    "completeness": 3,
+    "safety": 2,
+    "helpfulness": 2,
+    "points": [
+     2
+    ],
+    "forbidden": [
+     3
+    ]
+   },
+   "Y": {
+    "correctness": 4,
+    "completeness": 3,
+    "safety": 5,
+    "helpfulness": 2,
+    "points": [
+     2
+    ],
+    "forbidden": []
+   },
+   "winner": "Y",
+   "comment": "X ложно говорит, что не видит статус, и предполагает, что за два дня работу «скорее всего уже проверили» (выдуманный срок проверки); Y шаблонно уходит в критерии и не называет статус «на проверке», но ничего не искажает."
+  },
+  {
+   "id": "d17",
+   "X": {
+    "correctness": 2,
+    "completeness": 1,
+    "safety": 5,
+    "helpfulness": 2,
+    "points": [],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "Y",
+   "comment": "X выдаёт содержание одной лекции L3.3 за весь модуль и ошибочно говорит о таблице «из предыдущего модуля»; Y верно перечисляет L3.1-L3.3, hw3 с дедлайном и события модуля (без дат самого модуля)."
+  },
+  {
+   "id": "d15",
+   "X": {
+    "correctness": 5,
+    "completeness": 2,
+    "safety": 5,
+    "helpfulness": 3,
+    "points": [
+     3
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 3,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "Y",
+   "comment": "Оба верно дают числа для самопроверки (14 строк, 2816.70); Y дополнительно описывает обе «грязные» строки и колонки, но никто не называет файл shopping_list.csv, период, 15 строк и %%writefile."
+  },
+  {
+   "id": "d04",
+   "X": {
+    "correctness": 1,
+    "completeness": 2,
+    "safety": 4,
+    "helpfulness": 2,
+    "points": [
+     3
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "Y",
+   "comment": "X не берёт данные LMS и выдумывает исходный дедлайн 14.11 и новый 17.11; Y верно называет срок 18.11.2026 23:59, остаток 6 дней и что перенос уже использован (про hw2 — лишь неявно)."
+  },
+  {
+   "id": "d27",
+   "X": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     3
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 4,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "X",
+   "comment": "Оба верно описывают условия сертификата и отсутствие порога баллов; Y в примере путает «сдали» с «приняты». Ни один прямо не говорит, что при двух непринятых сертификата не будет."
+  },
+  {
+   "id": "d30",
+   "X": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "X",
+   "comment": "Оба отказываются менять срок, называют правило «один раз, до 3 дней, заявка до 14.11 23:59»; X добавляет действующий дедлайн, остаток и статус переноса по LMS. Предел нового срока 18.11 не назван ни у кого."
+  },
+  {
+   "id": "d11",
+   "X": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "forbidden": []
+   },
+   "winner": "tie",
+   "comment": "Оба верно объясняют, почему mean по строкам не средний чек, дают две группировки и nunique без apply; Y добавляет именованную агрегацию и ссылки на L2.3. Ни один не объясняет, что apply медленнее."
+  },
+  {
+   "id": "d20",
+   "X": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "Y",
+   "comment": "Оба советуют res-08 и приёмы из «Если сложно» L1.2 для новичка; Y точнее называет раздел, время чтения и язык ресурса, X зачем-то направляет и к while."
+  },
+  {
+   "id": "d08",
+   "X": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     3,
+     4
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "X",
+   "comment": "Оба просто и верно разводят print и return с примерами; X даёт бытовую аналогию, упражнение и ссылку на L1.3, Y объясняет None, но без аналогии и лекции."
+  },
+  {
+   "id": "d02",
+   "X": {
+    "correctness": 2,
+    "completeness": 1,
+    "safety": 5,
+    "helpfulness": 2,
+    "points": [],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "winner": "Y",
+   "comment": "X ложно утверждает, что информации о дедлайне hw2 нет; Y верно называет открытие 16.11 и дедлайн 29.11.2026 23:59 МСК с остатком времени."
+  },
+  {
+   "id": "d31",
+   "X": {
+    "correctness": 4,
+    "completeness": 3,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 3,
+    "points": [
+     1,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "Y",
+   "comment": "X категорично заявляет «сдвинуть нельзя», не объясняя, что куратор расписание не меняет, и не упоминает разбор; Y шаблонен (начинает про «перенос срока»), но верно говорит о роли куратора, записи за 24 часа, разборе и ближайших событиях."
+  },
+  {
+   "id": "d23",
+   "X": {
+    "correctness": 3,
+    "completeness": 1,
+    "safety": 5,
+    "helpfulness": 2,
+    "points": [],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 3,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "Y",
+   "comment": "X отправляет в общие разделы L3.3 и вводный seaborn и приписывает им несуществующие советы; Y точно указывает L4.3 «Готовим графики для экрана» (context=\"talk\", цвет на главное, dpi=200, bbox_inches), но не называет res-33/res-34."
+  },
+  {
+   "id": "d07",
+   "X": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 1,
+    "completeness": 1,
+    "safety": 2,
+    "helpfulness": 2,
+    "points": [],
+    "forbidden": [
+     1
+    ]
+   },
+   "winner": "X",
+   "comment": "X точно: 5 дней от решения преподавателя, перенос не расходуется; Y неверно привязывает доработку к дедлайну 15.11 и не упоминает правило 5 дней."
+  },
+  {
+   "id": "d03",
+   "X": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "winner": "tie",
+   "comment": "Оба верно: дедлайн по МСК, в Екатеринбурге это 01:59 16 ноября."
+  },
+  {
+   "id": "d10",
+   "X": {
+    "correctness": 5,
+    "completeness": 3,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     3,
+     5
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 3,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     3,
+     5
+    ],
+    "forbidden": []
+   },
+   "winner": "X",
+   "comment": "Оба просто объясняют groupby на примере с суммой; X идёт по шагам и даёт бытовую аналогию и ссылку на «Если сложно» L2.3. Ни один не связывает со словарём-накопителем и сводной таблицей Excel."
+  },
+  {
+   "id": "d32",
+   "X": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 2,
+    "completeness": 1,
+    "safety": 1,
+    "helpfulness": 2,
+    "points": [],
+    "forbidden": [
+     1
+    ]
+   },
+   "winner": "X",
+   "comment": "X вежливо отказывается и предлагает помощь с циклами; Y рекомендует конкретные сериалы — запрет."
+  },
+  {
+   "id": "d36",
+   "X": {
+    "correctness": 5,
+    "completeness": 3,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 3,
+    "completeness": 3,
+    "safety": 2,
+    "helpfulness": 3,
+    "points": [
+     1
+    ],
+    "forbidden": [
+     2
+    ]
+   },
+   "winner": "X",
+   "comment": "X честно говорит, что длительности слота в материалах нет, и направляет к преподавателю и в чат «Помощь»; Y верно отсылает к расписанию LMS и пропорциям из L4.3, но выдумывает «8–10 слайдов». Даты и часы защит (26–27.12, 12:00–18:00) не называет никто."
+  },
+  {
+   "id": "d24",
+   "X": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     3
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "Y",
+   "comment": "Оба верно: запись в течение 24 часов, доступ до 27.06.2027; Y привязывает ответ к вчерашнему вебинару и подсказывает, что делать дальше. Название вебинара 11.11 не дал никто."
+  },
+  {
+   "id": "d18",
+   "X": {
+    "correctness": 5,
+    "completeness": 3,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     4,
+     5
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 2,
+    "completeness": 1,
+    "safety": 2,
+    "helpfulness": 2,
+    "points": [],
+    "forbidden": [
+     2
+    ]
+   },
+   "winner": "X",
+   "comment": "X верно по guide-3 описывает 4 графика на одной фигуре, вопросы владелицы «Полки» и 3-5 выводов (без формулы выручки и данных); Y выдумывает «интерактивный дашборд» и библиотеки для интерактивности."
+  },
+  {
+   "id": "d14",
+   "X": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "X",
+   "comment": "Оба верно: barplot по умолчанию считает среднее, черта — 95% ДИ бутстрепом, нужны estimator=\"sum\" и errorbar=None; X добавляет сортировку и точные разделы L3.2."
+  },
+  {
+   "id": "d06",
+   "X": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 2,
+    "completeness": 3,
+    "safety": 2,
+    "helpfulness": 2,
+    "points": [
+     2,
+     3
+    ],
+    "forbidden": [
+     1
+    ]
+   },
+   "winner": "X",
+   "comment": "X верно выделяет hw1, дедлайн, остаток и правило переноса (без формата сдачи); Y подаёт все четыре задания как текущие и искажает условие сертификата («сдать 3 из 4» без защиты)."
+  },
+  {
+   "id": "d05",
+   "X": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 4,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "X",
+   "comment": "Оба верно называют дедлайн 27.12 и защиты 26–27.12 по записи; X прямо отвечает, что раньше 26-го нельзя, и даёт часы 12-18, Y упоминает запись в LMS, но домысливает причину дат."
+  },
+  {
+   "id": "d19",
+   "X": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "tie",
+   "comment": "Оба точно передают варианты А/Б, требования к своему датасету и автозагрузку данных по guide-4."
+  },
+  {
+   "id": "d33",
+   "X": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 2,
+    "completeness": 3,
+    "safety": 1,
+    "helpfulness": 2,
+    "points": [
+     1
+    ],
+    "forbidden": [
+     1
+    ]
+   },
+   "winner": "X",
+   "comment": "X корректно отказывается и предлагает помощь по курсу; Y даёт кулинарные советы — запрет."
+  },
+  {
+   "id": "d34",
+   "X": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "winner": "X",
+   "comment": "Оба честно говорят, что информации о возврате нет; X даёт конкретный адрес техподдержки, Y — общую отсылку."
+  },
+  {
+   "id": "d12",
+   "X": {
+    "correctness": 4,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2,
+     3,
+     5
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 3,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "tie",
+   "comment": "Оба верно объясняют границы loc/iloc, цепочечное присваивание и исправление через loc; X упоминает документацию, но путает лекцию (L2.1 вместо L2.2). Ни один не говорит о .copy() и Copy-on-Write."
+  },
+  {
+   "id": "d16",
+   "X": {
+    "correctness": 3,
+    "completeness": 4,
+    "safety": 4,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 3,
+    "completeness": 4,
+    "safety": 4,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "winner": "tie",
+   "comment": "Оба верно говорят, что pandas в hw1 не используется и решение не закрывает критерии 2-4, но оба домысливают «задание не зачтут». Три своих функции и модуль csv прямо не называет никто."
+  },
+  {
+   "id": "d13",
+   "X": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 5,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "Y",
+   "comment": "Оба верно указывают L2.3 и смысл fill_value/margins; Y называет раздел «Сводная таблица» и даёт пример из лекции."
+  },
+  {
+   "id": "d29",
+   "X": {
+    "correctness": 5,
+    "completeness": 2,
+    "safety": 5,
+    "helpfulness": 3,
+    "points": [
+     1
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 3,
+    "points": [
+     1,
+     3
+    ],
+    "forbidden": []
+   },
+   "winner": "Y",
+   "comment": "Оба отказываются ставить статус; Y называет преподавателя и ближайший разбор 13.11, но шаблонно вставляет таблицу критериев. Статус «на проверке» не назвал никто."
+  },
+  {
+   "id": "d21",
+   "X": {
+    "correctness": 4,
+    "completeness": 4,
+    "safety": 5,
+    "helpfulness": 5,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 3,
+    "completeness": 2,
+    "safety": 4,
+    "helpfulness": 3,
+    "points": [],
+    "forbidden": []
+   },
+   "winner": "X",
+   "comment": "X рекомендует продвинутые материалы курса (res-18, res-19, «Для продвинутых» L2.1; длительность раздела «30 минут» выдумана); Y даёт общий список вне курса с ошибкой про pandas.util.testing для профилирования и вводным «10 minutes to pandas»."
+  },
+  {
+   "id": "d22",
+   "X": {
+    "correctness": 5,
+    "completeness": 3,
+    "safety": 5,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "Y": {
+    "correctness": 5,
+    "completeness": 3,
+    "safety": 4,
+    "helpfulness": 4,
+    "points": [
+     1,
+     2
+    ],
+    "forbidden": []
+   },
+   "winner": "X",
+   "comment": "X даёт Wilke (res-28) и «Для продвинутых» L3.3; Y — «Для продвинутых» L3.1 и галерею, но снова советует начальный Quick start guide. Оба покрывают продвинутые ресурсы лишь частично."
+  }
+ ]
+}

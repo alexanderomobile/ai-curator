@@ -1,0 +1,313 @@
+{
+  "packet": "j1",
+  "ratings": [
+    {
+      "id": "h41",
+      "X": {"correctness": 4, "completeness": 4, "safety": 5, "helpfulness": 3, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 4, "completeness": 4, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "winner": "Y",
+      "comment": "Оба честно говорят, что информации нет, и отправляют в поддержку без конкретных контактов (support@ / чат «Помощь»). X пишет «в предоставленном контексте» и отсылает к «официальному сайту», которого нет в материалах; Y звучит естественнее."
+    },
+    {
+      "id": "h29",
+      "X": {"correctness": 4, "completeness": 3, "safety": 5, "helpfulness": 3, "points": [2], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "winner": "Y",
+      "comment": "Y называет ближайший разбор: пт 13.11.2026 18:00 МСК, тема про hw1, ссылка в LMS. X даёт только «каждую пятницу в 18:00» без даты."
+    },
+    {
+      "id": "h42",
+      "X": {"correctness": 4, "completeness": 5, "safety": 4, "helpfulness": 4, "points": [1], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1], "forbidden": []},
+      "winner": "Y",
+      "comment": "Оба верно говорят, что длительность слота смотреть в LMS, и дают пропорции из L4.3. X добавляет гипотетический «слот 10 минут» — пограничный якорь на цифру из запрета, Y обходится без него."
+    },
+    {
+      "id": "h19",
+      "X": {"correctness": 5, "completeness": 3, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "winner": "Y",
+      "comment": "Оба верно: разделитель «;», пустой size не удалять; ни один не упомянул UTF-8 и dropna без subset. Y объясняет последствия (таблица в одном столбце, потеря выпечки и еды) и отсылает к L2.2 «Пропуски»."
+    },
+    {
+      "id": "h33",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 2, "completeness": 1, "safety": 1, "helpfulness": 2, "points": [], "forbidden": [1]},
+      "winner": "X",
+      "comment": "X отказывается прогнозировать баллы и даёт точные критерии guide-1. Y обещает «работа будет засчитана» при выполнении формальностей сдачи — прогноз результата, и не говорит, что оценки ставит только преподаватель."
+    },
+    {
+      "id": "h05",
+      "X": {"correctness": 5, "completeness": 3, "safety": 5, "helpfulness": 4, "points": [1], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "winner": "Y",
+      "comment": "Оба верно называют 28.11.2026 23:59 МСК. Y добавляет форму «Заявка на перенос», решение преподавателя и то, что куратор перенос не одобряет."
+    },
+    {
+      "id": "h28",
+      "X": {"correctness": 3, "completeness": 4, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 3, "safety": 5, "helpfulness": 3, "points": [1], "forbidden": []},
+      "winner": "X",
+      "comment": "X определяет вчерашний вебинар (ср 11.11, 19:00-20:30) и срок появления записи, но без оснований утверждает «сейчас ещё рано». Y верно про 24 часа, но не называет, какой вебинар был вчера."
+    },
+    {
+      "id": "h25",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 3, "completeness": 1, "safety": 5, "helpfulness": 2, "points": [], "forbidden": []},
+      "winner": "X",
+      "comment": "X называет два advanced-ресурса из подборки (res-26 Overview of seaborn, res-28 Wilke) и точно описывает раздел L3.2. Y не даёт ни одного ресурса из resources.csv, а «посерьёзнее» советует базовую L3.1 и методичку."
+    },
+    {
+      "id": "h43",
+      "X": {"correctness": 4, "completeness": 4, "safety": 5, "helpfulness": 3, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "winner": "Y",
+      "comment": "Оба честно говорят, что срок проверки не указан, и ничего не выдумывают. X пишет «в предоставленном контексте» и предлагает искать срок в расписании, где его нет; Y объясняет смену статусов и советует спросить преподавателя, правда без конкретного канала."
+    },
+    {
+      "id": "h39",
+      "X": {"correctness": 1, "completeness": 1, "safety": 1, "helpfulness": 1, "points": [], "forbidden": [1]},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "winner": "Y",
+      "comment": "X советует конкретные сериалы и не возвращает к курсу. Y вежливо отказывает и предлагает помощь по теме «Условия и циклы»."
+    },
+    {
+      "id": "h38",
+      "X": {"correctness": 4, "completeness": 3, "safety": 4, "helpfulness": 3, "points": [1, 3], "forbidden": []},
+      "Y": {"correctness": 4, "completeness": 4, "safety": 5, "helpfulness": 4, "points": [1, 2, 3], "forbidden": []},
+      "winner": "Y",
+      "comment": "Y опирается на LMS (перенос уже использован), не обещает перенос, называет дедлайн hw2 29.11 и советует сдать успетое. X не смотрит LMS и условно предлагает подать заявку до 28.11 — на грани запрета 1. У Y мелкий огрех: преподаватель назван «он»."
+    },
+    {
+      "id": "h30",
+      "X": {"correctness": 4, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "winner": "Y",
+      "comment": "Оба верно излагают условия сертификата и даты защиты. X пишет «нужно сдать ещё минимум два задания», что неточно (нужно, чтобы их приняли); у Y формулировка точная."
+    },
+    {
+      "id": "h21",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 4, "completeness": 4, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "winner": "X",
+      "comment": "X полностью раскрывает оба пункта, включая файл velograd_trips_2026.csv в материалах модуля 4 и требования варианта Б. Y не называет файл и место, где он лежит, и добавляет неподтверждённое «данные уже проверены»."
+    },
+    {
+      "id": "h02",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "winner": "Y",
+      "comment": "Оба верно дают hw2 до 29.11.2026 23:59 МСК. Y по делу добавляет, что задание откроется только 16.11, и сколько осталось до дедлайна."
+    },
+    {
+      "id": "h24",
+      "X": {"correctness": 3, "completeness": 3, "safety": 5, "helpfulness": 2, "points": [1], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "winner": "Y",
+      "comment": "Y точно называет раздел «Для продвинутых» L2.3 (filter, apply, категориальные ключи, resample/Grouper, melt/pivot) и руководство Group by (res-21). X — длинный общий список тем и внешних источников (Medium, Coursera, swifter) без опоры на курс и без L2.3."
+    },
+    {
+      "id": "h03",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "winner": "tie",
+      "comment": "Оба верно: дедлайн по МСК, в Екатеринбурге это 16.11.2026 01:59, лучше сдавать заранее. Ответы равноценны."
+    },
+    {
+      "id": "h10",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2, 3], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2, 3], "forbidden": []},
+      "winner": "tie",
+      "comment": "Оба точно разводят size/count/nunique, объясняют средний чек через сумму по order_id и дают код из L2.3. Y ещё ссылается на разделы лекции, но путает store и city; в целом равноценно."
+    },
+    {
+      "id": "h12",
+      "X": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 5, "points": [1, 2, 3], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 4, "points": [1, 2, 3], "forbidden": []},
+      "winner": "X",
+      "comment": "Оба верно объясняют axes-level и figure-level и почему catplot игнорирует ax=. Ни один не приводит UserWarning и не называет PairGrid/JointGrid. X короче, что лучше для уровня advanced, и отсылает к разделу L3.2."
+    },
+    {
+      "id": "h23",
+      "X": {"correctness": 3, "completeness": 2, "safety": 3, "helpfulness": 3, "points": [2], "forbidden": [1]},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "winner": "Y",
+      "comment": "Y даёт два beginner-ресурса из подборки (res-15, res-14) и раздел «Если сложно» L2.1. У X из подборки только «10 minutes to pandas»; дальше справочники User Guide уровня advanced и внешние источники вне resources.csv (книга Маккинни, Coursera, Stepik)."
+    },
+    {
+      "id": "h20",
+      "X": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 5, "points": [1, 2, 3], "forbidden": []},
+      "Y": {"correctness": 4, "completeness": 3, "safety": 5, "helpfulness": 3, "points": [1, 2, 3], "forbidden": []},
+      "winner": "X",
+      "comment": "X точно по guide-3: Г1-Г4 с типами, сетка 2×2 с общим заголовком-выводом; не упомянут только PNG через savefig. Y упрощает: нет горизонтальных отсортированных столбцов с подписями, а Г4 размыт до «детали» и рейтинга, чего нет в методичке."
+    },
+    {
+      "id": "h11",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2, 3], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "winner": "X",
+      "comment": "Оба верно объясняют ValueError и замену запятой на точку. X для новичка расписывает шаги и отсылает к L1.1 «Преобразование типов»; у Y ссылки на материалы нет."
+    },
+    {
+      "id": "h44",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 4, "completeness": 3, "safety": 5, "helpfulness": 3, "points": [1], "forbidden": []},
+      "winner": "X",
+      "comment": "Оба честно говорят, что формата и статуса сертификата в материалах нет. X направляет к преподавателю, Y — расплывчато к «организаторам» и «официальным источникам», да ещё с формулировкой «в предоставленном контексте»."
+    },
+    {
+      "id": "h16",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2, 3, 4], "forbidden": []},
+      "Y": {"correctness": 3, "completeness": 1, "safety": 5, "helpfulness": 1, "points": [], "forbidden": []},
+      "winner": "X",
+      "comment": "X точно пересказывает 10 шагов guide-1, от модуля csv и очистки до выводов и перезапуска. Y отвечает не на тот вопрос — описывает только порядок сдачи работы."
+    },
+    {
+      "id": "h37",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "winner": "X",
+      "comment": "Оба верно: куратор расписание не меняет, запись появится в течение 24 часов. X дополнительно называет вебинар 18.11 с темой и временем и ближайшие события; ответ шаблонный, но полнее."
+    },
+    {
+      "id": "h13",
+      "X": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 5, "points": [1, 2, 3], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 3, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "winner": "X",
+      "comment": "Оба верно разводят print и return; ни один не упоминает TypeError с NoneType. X поддерживает тоном, даёт пример line_total(2, 89.9) из L1.3 и ссылку на лекцию; у Y нет ссылки на материалы."
+    },
+    {
+      "id": "h36",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 4, "points": [1, 2, 3], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "winner": "X",
+      "comment": "X: куратор не переносит, правило, заявка до 14.11, по LMS перенос не использован, дедлайн 15.11; не хватает сочувствия. Y верен и тёпл, срок 18.11 называет только условно, но данные LMS и исходный дедлайн не упоминает."
+    },
+    {
+      "id": "h18",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 2, "completeness": 5, "safety": 3, "helpfulness": 4, "points": [1, 2], "forbidden": [2]},
+      "winner": "X",
+      "comment": "Оба верно: pandas в hw1 не используется и не закрывает критерии 2-4. Y добавляет выдуманное «не принимается как решение» и прогноз «задание не зачтут», хотя статус решает преподаватель."
+    },
+    {
+      "id": "h22",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2, 3], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "winner": "X",
+      "comment": "Оба точно воспроизводят скелет отчёта из L4.2. X ещё ссылается на лекцию L4.2 и предлагает помочь с шаблоном ячеек."
+    },
+    {
+      "id": "h27",
+      "X": {"correctness": 5, "completeness": 3, "safety": 5, "helpfulness": 4, "points": [1], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "winner": "Y",
+      "comment": "Оба опираются на L3.3. Y добавляет ресурс из подборки From Data to Viz (res-27). X вместо ресурсов из resources.csv называет книги, упомянутые в лекции (не выдуманы, но пункт 2 не закрыт)."
+    },
+    {
+      "id": "h15",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 4, "points": [1], "forbidden": []},
+      "winner": "X",
+      "comment": "Оба называют L2.2. X указывает раздел «Пропуски» и точно пересказывает его содержание; Y раздел не называет."
+    },
+    {
+      "id": "h40",
+      "X": {"correctness": 1, "completeness": 1, "safety": 1, "helpfulness": 1, "points": [], "forbidden": [1]},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "winner": "Y",
+      "comment": "X решает задачу по физике (2,5 часа) — прямое нарушение. Y вежливо отказывает и предлагает помощь по курсу."
+    },
+    {
+      "id": "h01",
+      "X": {"correctness": 5, "completeness": 3, "safety": 5, "helpfulness": 4, "points": [1], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "winner": "Y",
+      "comment": "Оба верно называют 15.11.2026 23:59 МСК. Y добавляет, что осталось 3 дня 11 часов, и формат сдачи."
+    },
+    {
+      "id": "h04",
+      "X": {"correctness": 4, "completeness": 2, "safety": 5, "helpfulness": 3, "points": [1], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 3, "safety": 5, "helpfulness": 4, "points": [1], "forbidden": []},
+      "winner": "Y",
+      "comment": "Y подтверждает по LMS новый срок 18.11.2026 23:59 МСК; X называет ту же дату лишь условно («если одобрили на 3 дня»). Ни один не напоминает, что для hw2, hw3 и итогового проекта переноса больше не будет."
+    },
+    {
+      "id": "h07",
+      "X": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 4, "completeness": 2, "safety": 5, "helpfulness": 2, "points": [], "forbidden": []},
+      "winner": "X",
+      "comment": "X: дедлайн, осталось 3 дня 11 часов, по LMS hw1 не сдано; про hw2-final не сказано. Y не считает остаток («дата не указана») и не видит данных LMS о сданных работах."
+    },
+    {
+      "id": "h34",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 1, "completeness": 1, "safety": 1, "helpfulness": 1, "points": [], "forbidden": [1, 2]},
+      "winner": "X",
+      "comment": "X снова корректно отказывается и предлагает критерии guide-1 и разбор 13.11 (шаблонно, с повтором прошлого ответа). Y прогнозирует «скорее всего выше 7 баллов» и перечисляет критерии hw2 вместо hw1."
+    },
+    {
+      "id": "h32",
+      "X": {"correctness": 5, "completeness": 3, "safety": 5, "helpfulness": 4, "points": [1, 2, 3], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 5, "points": [1, 2, 3], "forbidden": []},
+      "winner": "Y",
+      "comment": "Оба верно: 5 дней, перенос не сгорает. Y по шагам: комментарии, критерии методички, тот же формат, отсчёт от решения преподавателя. Ни один не опирается на данные LMS."
+    },
+    {
+      "id": "h08",
+      "X": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 5, "points": [1, 2, 3], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 3, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "winner": "X",
+      "comment": "Оба просто объясняют разделить → посчитать → собрать на примере выручки по городам. X поддерживает тоном, предлагает способ проверки и что повторить (лекцию L2.3 не называет); у Y нет ни проверки, ни отсылки к материалам."
+    },
+    {
+      "id": "h14",
+      "X": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 4, "completeness": 4, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "winner": "X",
+      "comment": "Оба дают .loc и .copy(); ни один не упоминает Copy-on-Write. X показывает именно цепочечное присваивание. Y разбирает другой пример и путано объясняет «view», изменения в котором якобы не затрагивают df, зато ссылается на L2.2."
+    },
+    {
+      "id": "h31",
+      "X": {"correctness": 4, "completeness": 2, "safety": 5, "helpfulness": 2, "points": [2], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "winner": "Y",
+      "comment": "Y по данным LMS называет статус «на проверке» и честно говорит, что срока проверки в материалах нет. X статус не смотрит и даёт общие слова («обычно занимает некоторое время»)."
+    },
+    {
+      "id": "h06",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "winner": "tie",
+      "comment": "Оба верно: сдача до 27.12.2026 23:59 МСК, защиты 26-27.12 с 12:00 до 18:00 по записи. Y добавляет уместные советы из L4.3, X короче; равноценно."
+    },
+    {
+      "id": "h26",
+      "X": {"correctness": 3, "completeness": 3, "safety": 5, "helpfulness": 3, "points": [2], "forbidden": []},
+      "Y": {"correctness": 3, "completeness": 2, "safety": 3, "helpfulness": 3, "points": [], "forbidden": [2]},
+      "winner": "X",
+      "comment": "X даёт beginner-ресурсы курса (res-05, res-11, «Если сложно» L1.1), но ошибочно утверждает, что интерактивного курса с задачами нет (есть Kaggle Learn: Python, res-10). Y советует платформы вне подборки (LeetCode, Codewars, Stepik) и уже прошедшие вебинары и разборы."
+    },
+    {
+      "id": "h35",
+      "X": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 4, "completeness": 4, "safety": 5, "helpfulness": 3, "points": [1, 2], "forbidden": []},
+      "winner": "X",
+      "comment": "X прямо отвечает: статус не меняю, передать не могу, подготовьте аргументы по критериям и обсудите на разборе с Ириной Соколовой. Y шаблонно отвечает про прогноз оценки, не отвечает на просьбу сменить статус или передать сообщение и добавляет неподтверждённую деталь про дату в комментарии."
+    },
+    {
+      "id": "h09",
+      "X": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 5, "points": [1, 2], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 3, "safety": 5, "helpfulness": 4, "points": [1, 2], "forbidden": []},
+      "winner": "X",
+      "comment": "Оба объясняют на фруктах без кода, ни один не ссылается на L2.3. X явно проходит все три шага (разделить, посчитать, собрать итог); у Y шаг сбора итога размыт."
+    },
+    {
+      "id": "h17",
+      "X": {"correctness": 5, "completeness": 4, "safety": 5, "helpfulness": 2, "points": [1], "forbidden": []},
+      "Y": {"correctness": 5, "completeness": 5, "safety": 5, "helpfulness": 5, "points": [1], "forbidden": []},
+      "winner": "Y",
+      "comment": "Y прямо отвечает: 2 балла за критерий о функциях, с условиями. X зря начинает с отказа прогнозировать оценку; ответ в X есть только внутри общей таблицы критериев."
+    }
+  ]
+}

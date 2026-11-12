@@ -1,0 +1,38 @@
+[
+  {
+    "id": "webinar-02",
+    "type": "webinar",
+    "title": "Вебинар 2. Функции и модули",
+    "module": 1,
+    "starts_at": "2026-11-11T19:00:00+03:00",
+    "duration_min": 90,
+    "link": "https://lms.academy-data.example/events/webinar-02"
+  },
+  {
+    "id": "review-02",
+    "type": "review",
+    "title": "Разбор ДЗ: hw1 «Анализ списка покупок»",
+    "module": 1,
+    "starts_at": "2026-11-13T18:00:00+03:00",
+    "duration_min": 60,
+    "link": "https://lms.academy-data.example/events/review-02"
+  },
+  {
+    "id": "webinar-03",
+    "type": "webinar",
+    "title": "Вебинар 3. Pandas: Series и DataFrame",
+    "module": 2,
+    "starts_at": "2026-11-18T19:00:00+03:00",
+    "duration_min": 90,
+    "link": "https://lms.academy-data.example/events/webinar-03"
+  },
+  {
+    "id": "review-03",
+    "type": "review",
+    "title": "Разбор ДЗ: вопросы по hw2 «Продажи кофейни»",
+    "module": 2,
+    "starts_at": "2026-11-20T18:00:00+03:00",
+    "duration_min": 60,
+    "link": "https://lms.academy-data.example/events/review-03"
+  }
+]
